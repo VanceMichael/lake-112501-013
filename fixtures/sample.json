@@ -1,5 +1,30 @@
 {
   "说明": "本地合成演练资料",
   "业务对象": "训练特征点时刻一致性与数据集发布",
-  "记录": []
+  "记录": [
+    {
+      "entity": "R-7",
+      "feature": "speed",
+      "event_time": "2026-10-15T09:00:00Z",
+      "known_at": "2026-10-15T09:05:00Z",
+      "version": "v1",
+      "value": 3.2
+    },
+    {
+      "entity": "R-7",
+      "feature": "speed",
+      "event_time": "2026-10-15T09:00:00Z",
+      "known_at": "2026-10-16T08:00:00Z",
+      "version": "v2",
+      "value": 3.4
+    },
+    {
+      "entity": "R-7",
+      "feature": "label",
+      "event_time": "2026-10-15T09:02:00Z",
+      "known_at": "2026-10-15T09:10:00Z",
+      "version": "v1",
+      "value": "ok"
+    }
+  ]
 }
